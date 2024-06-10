@@ -15,5 +15,5 @@ function quicksort(array){
     return[...quicksort(left),pivot,...quicksort(right)]
 }
 
-const array=[3,1,9,0,2,10,29,33,21]
+const array=[3,1,9,0,2,10,100,29,33,21]
 console.log(quicksort(array))
